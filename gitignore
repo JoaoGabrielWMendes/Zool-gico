@@ -1,0 +1,25 @@
+# Eclipse
+.settings/
+.project
+.classpath
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Arquivos de compilação
+*.class
+
+# Logs e temporários
+*.log
+*.tmp
+*.swp
+*.bak
+
+# Sistema
+.DS_Store
+Thumbs.db
