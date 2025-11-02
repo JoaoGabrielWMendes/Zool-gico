@@ -170,7 +170,7 @@ public class Main{
         System.out.println("Animal cadastrado com sucesso!");
     }
     	System.out.println("Pressione Enter para continuar...");
-    	sn.nextLine(); // espera o usuário apertar Enter
+    	sn.nextLine(); 
 }
 		
 	
@@ -183,7 +183,7 @@ public class Main{
 }
 	
     private static void ListarAnimaisCorredores(List<Animal> animais) {
-        System.out.println("Corredores: ");
+        System.out.println("Animais corredores: ");
         for (Animal animal : animais) {
             if(animal instanceof Corredor) {
             	imprimirDados(animal);
@@ -193,7 +193,7 @@ public class Main{
 }
     
     private static void ListarAnimaisNadadores(List<Animal> animais) {
-        System.out.println("Nadadores: ");
+        System.out.println("Animais nadadores: ");
         for (Animal animal : animais) {
             if(animal instanceof Nadador) {
             	imprimirDados(animal);
@@ -203,7 +203,7 @@ public class Main{
 }
     
     private static void ListarAnimaisVoadores(List<Animal> animais) {
-        System.out.println("Voadores: ");
+        System.out.println("Animais voadores: ");
         for (Animal animal : animais) {
             if(animal instanceof Voador) {
             	imprimirDados(animal);
@@ -213,7 +213,7 @@ public class Main{
 }
     
     private static void ListarAnimaisPredadores(List<Animal> animais) {
-        System.out.println("Predadores: ");
+        System.out.println("Animais predadores: ");
         for (Animal animal : animais) {
             if(animal instanceof Predador) {
             	imprimirDados(animal);
